@@ -11,7 +11,7 @@ app:
     db_name: postgres
     db_port: 5432
   port: 3000
-  image: tienpvse1/k8s-simple:4b9fd8f956cf27d1f9586d38f0b42fadc69a8165
+  image: tienpvse1/k8s-simple:a81774631d3915c5b5e242944ce6255355d5d394
   name: testing-app
   metadata:
     labels:
