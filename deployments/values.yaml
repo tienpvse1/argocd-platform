@@ -1,0 +1,19 @@
+
+global:
+  postgresql:
+    auth:
+      postgresPassword:  
+      database: postgres
+      username: 
+app:
+  config: 
+    db_host: my-app-postgresql
+    db_name: postgres
+    db_port: 5432
+  port: 3000
+  image: tienpvse/k8s-simple:0.1
+  name: testing-app
+  metadata:
+    labels:
+      app: testing-app
+
