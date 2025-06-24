@@ -6,6 +6,7 @@ global:
       database: postgres
       username: 
 app:
+  dummy: true
   config: 
     db_host: argo-app-postgresql
     db_name: postgres
